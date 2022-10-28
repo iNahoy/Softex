@@ -1,13 +1,14 @@
-const On = document.getElementById ( 'turnOn' );
-const Off = document.getElementById ( 'turnOff' );
-const lampada = document.getElementById ( 'lamp' );
+const turnOn = document.getElementById ( 'turnOn' );
+const turnOff = document.getElementById ( 'turnOff' );
+const lamp = document.getElementById ( 'lamp' );
 
 function lampOn () {
-        lampada.src = './on.jpeg';
-}
+        lamp.src = './on.jpeg';
+    }
 
 function lampOff () {
-        lampada.src = './off.jpeg';
+        lamp.src = './off.jpeg';
 }
-On.addEventListener ( 'click', lampOn );
-Off.addEventListener ( 'click', lampOff );
+
+turnOn.addEventListener ( 'click', lampOn );
+turnOff.addEventListener ( 'click', lampOff );
