@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="UTF-8">
+<head>
+    <title>Lâmpada</title>
+</head>
+<body>
+    <header>
+        <h1>Dupla - Jorge Yohan e Sávio Vínicius</h1>
+    </header>
+    <main>
+        <div>
+            <img src="./off.jpeg" alt="Lâmpada" id='lamp'>
+        </div>
+        <div>
+            <button id='liga'>Ligar</button>
+            <button id='desliga'>Desligar</button>
+        </div>
+    </main>
+    <script>
+        const liga = document.getElementById ( 'liga' );
+        const desliga = document.getElementById ( 'desliga' );
+        const lamp = document.getElementById ( 'lamp' );
+        function ligar () {lamp.src = './on.jpeg';}
+        function desligar () {lamp.src = './off.jpeg';}
+        liga.addEventListener ( 'click', ligar );
+        desliga.addEventListener ( 'click', desligar );
+    </script>
+</body>
+</html>
