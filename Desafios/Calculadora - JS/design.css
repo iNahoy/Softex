@@ -1,0 +1,103 @@
+html {
+    box-sizing: border-box;
+    height: 100%
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    background: linear-gradient(32deg,#FF0000,#660000,#330000,#000000);
+    display: flex;
+    height: inherit;
+    justify-content: center;
+}
+
+.calculadora{
+    backdrop-filter: blur (5.5px);
+    -webkit-background-filter: blur (5.5px);
+    background: rgba(255,255,255,0.75);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 18px;
+    box-shadow: 0 4px 30px rgba(35,35,35,0.1);
+    color: #232323;
+    backdrop-filter: blur (4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px;
+}
+.resultado{
+    backdrop-filter:blur(5.5px);
+    -webkit-backdrop-filter:blur(5.5px);
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 13px;
+    box-shadow: 0 4px 30px rgba(255,255,255,0.13);
+    color: #FFFFFF;
+    font-size:22px;
+    text-align: right;
+    padding: 13px;
+    font-family: "arial"
+}
+.apag{
+    text-align:right;
+}
+.apagar{
+
+    backdrop-filter:blur(5.5px);
+    -webkit-backdrop-filter: blur (5.5px);
+    background: rgba(0, 0, 0, 0.75);
+    border: 1px solid rgba(255,255,255,0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(35,35,35,0.1);
+    color: #2323;
+    flex-basis: 20%;
+    font-family: "arial";
+    font-size: 32px;
+    color: #FFFF;
+    
+}
+.apagar:active{
+    background: #660000;
+    color: inherit;
+}
+.botoescalc{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+.botoes{
+    backdrop-filter:blur(5.5px);
+    -webkit-backdrop-filter: blur (5.5px);
+    background: rgba(0, 0, 0, 0.75);
+    border: 1px solid rgba(255,255,255,0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(35,35,35,0.1);
+    color: rgb(0, 0, 0);
+    flex-basis: 20%;
+    font-family: "arial";
+    font-size: 32px;
+    color: #FFFF;
+    height: 65px;
+}
+.botoes:active{
+    background-color:#660000;
+    color: inherit;
+}
+.botaodouble{
+    backdrop-filter:blur(5.5px);
+    -webkit-backdrop-filter: blur (5.5px);
+    background: rgba(0, 0, 0, 0.75);
+    border: 1px solid rgba(255,255,255,0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(35,35,35,0.1);
+    color: rgb(0, 0, 0);
+    flex-basis: 47%;
+    font-family: "arial";
+    font-size: 32px;
+    color: #FFFF;
+    height: 65px;
+}
