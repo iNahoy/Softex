@@ -5,22 +5,21 @@ let opa;
 const resultado = document.querySelector('.resultado');
 
 function buttonClick(value){
-    if (isNaN(value)) {
+     if (isNaN(value)) {
         simbolos(value);
     }else{
         numeros(value);
     }
     resultado.innerText = buffer;
 }
-
 function simbolos(symbol) {
     switch(symbol){
-        case 'C':
+    case 'C':
             buffer = '0';
             total = 0;
             break;
 
-        case '=':
+    case '=':
             if (opa === null){
                 return;
             }
@@ -31,7 +30,7 @@ function simbolos(symbol) {
             total = 0;
             break;
 
-        case '←':
+    case '←':
             if(buffer.length === 1){
                 buffer = '0';
             }
@@ -44,17 +43,16 @@ function simbolos(symbol) {
             buffer += '.';
             break;
 
-        case '+':
-        case '-':
-        case 'X':
-        case '/':
-        case '*':
-        case 'Mod':
-            matematica(symbol);
-            break;
+    case '+':
+    case '-':
+    case 'X':
+    case '/':
+    case '*':
+    case 'Mod':
+          matematica(symbol);
+          break;
         }
     }
-
 function matematica(symbol) {
     if(buffer === '0'){
         return;
@@ -71,7 +69,6 @@ function matematica(symbol) {
     opa = symbol;
     buffer = '0';
 }
-
 function opr (nint){
     if(opa === "+"){
        total += nint; 
@@ -87,7 +84,6 @@ function opr (nint){
         total **= nint;
     } 
 }
-
 function numeros(nStr){
     if (buffer === '0'){
         buffer = nStr;
@@ -95,7 +91,6 @@ function numeros(nStr){
         buffer += nStr;
     }
 }
-
 function init (){
     document.querySelector('.calculadora')
     .addEventListener('click', 
