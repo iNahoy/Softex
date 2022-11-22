@@ -14,8 +14,6 @@ fusca = new carro("Fusca ", "Volkswagen ", "Preto ", "4 Rodas ", "4 Portas.")
 carro.prototype.tostring = function (){
     return this.marca + this.modelo + this.cor + this.nrodas + this.nportas}
 
-    console.log(carro.tostring());
-
     console.log(ford.tostring());
     console.log(chevrolet.tostring());
     console.log(fusca.tostring());
