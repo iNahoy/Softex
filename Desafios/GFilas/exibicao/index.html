@@ -1,0 +1,21 @@
+<?php
+    require_once("src/conexao.php");
+    $result = mysqli_query($conexao, "SELECT * FROM cadastro ORDER BY id ASC");
+?>
+<!DOCTYPE html>
+<head>
+    <html lang= 'pt-br'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor</title>
+</head>
+<body>
+    <h1>Ordenador de chamadas</h1>
+    <?php
+        while($row=mysqli_fetch_array($result)){
+        echo '<li><a href="src/show.php?id='.$row['id'].'">'.$row['nome'].'<a></li>';
+        }
+    ?>
+</body>
+</html>
