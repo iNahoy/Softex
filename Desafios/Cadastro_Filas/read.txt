@@ -1,1 +1,0 @@
-Site para cadastramento de filas como um guichê onde o paciente é chamado e alertado na tela de sua vez.
