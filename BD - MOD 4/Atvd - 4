@@ -1,0 +1,7 @@
+Atividade - 4 
+
+Os comandos a serem executados no banco de dados são:
+Para os alunos:
+SELECT pn, un, serie, matricula, disciplina, nota FROM alunos;
+Para os professores:
+SELECT pn, un FROM professores
