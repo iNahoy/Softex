@@ -1,0 +1,2 @@
+SELECT action.ActGam, stealth.StealthGam FROM action
+INNER JOIN stealth ON action.ActGam = stealth.StealthGam;
