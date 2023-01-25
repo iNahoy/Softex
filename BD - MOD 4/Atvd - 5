@@ -1,0 +1,3 @@
+O banco de dados relacional é baseado em uma forma direta de apresentar tudo que aloca em tabelas. 
+Sua maior personalidade é a sua necessidade de estruturar esquemas e relacionar suas partes como linha e coluna para assim incrementar um novo dado. 
+Já no não relacional eles são feitos como se fossem ligados a big data e não são relacionais como o SQL.
