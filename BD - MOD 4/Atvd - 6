@@ -1,0 +1,19 @@
+1 - inclua a coluna DATA_NASCIMENTO na tabela ALUNO do tipo string e de tamanho 10 caracteres; 
+
+SELECT * FROM alunos;
+ADD COLUMN ddn VARCHAR(10) AFTER 'tel';
+
+2 - altere a coluna TELEFONE para CONTATO e seu tipo de dado para string; 
+
+SELECT * FROM alunos;
+CHANGE COLUMN 'tel' 'contato' VARCHAR(11) DEFAULT;
+
+3 - inclua o campo ISBN na tabela LIVRO, com tamanho de 13 caracteres do tipo inteiro;
+
+SELECT * FROM livros;
+ADD COLUMN 'ISBN' INT(13) AFTER autor;
+
+4 - e remova o campo ISBN da tabela LIVRO. 
+
+ SELECT * FROM livros;
+ DROP COLUMN 'ISBN';
