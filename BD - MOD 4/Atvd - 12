@@ -1,0 +1,7 @@
+Uma empresa está sofrendo ataques que impactam diretamente a sua segurança. 
+Então, ela precisa atualizar as senhas de todos os seus funcionários.
+Cite pelo menos três métodos para melhorar essas senhas.
+
+Criar uma aplicação para automatizar senhas novas.
+Utilizar utilização de dois fatores.
+Criar senhas novas com caracteres especiais com aproximadamente 12 caracteres.
