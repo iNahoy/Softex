@@ -1,0 +1,8 @@
+CREATE FUNCTION total(data DATE)
+RETURNS INT
+BEGIN
+  DECLARE all INT;
+  SELECT COUNT(*) INTO all FROM consumidores WHERE cad = data;
+  RETURN all;
+END
+SELECT total;
