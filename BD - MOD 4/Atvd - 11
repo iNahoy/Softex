@@ -1,1 +1,7 @@
+Após uma varredura rápida no sistema da sua empresa, foi identificada a necessidade de melhorar a segurança dos dados.
+Por isso, você deve desenvolver um novo banco de dados. 
+Explique quais são os pilares da segurança de dados que devem ser seguidos.
 
+O Primeiro de cara seria garantir a autenticação do banco de dados para garantir o acesso controlado a somente X usuários liberados pela administração do projeto inteiro.
+O Segundo processo seria controlar as informações que as pessoas que estão vendo no seu banco de dados. Seguidamente de garantir a segurança do banco, encriptando dados
+e etc. Deixar um monitoramento ativo e o backup de dados atualizado iria assegurar ainda mais a garantia de todo o banco funcional.
