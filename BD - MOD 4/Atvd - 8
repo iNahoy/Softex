@@ -1,0 +1,5 @@
+Você deve criar uma tabela para executar uma trigger que relacione algum comando, como: insert, select, delete ou update.
+
+CREATE TABLE teste (NomeJ VARCHAR(10), Plataforma(3));
+INSERT INTO teste VALUES ('Metal Gear Solid V','PC');
+DELETE FROM teste WHERE NomeJ = 1;
